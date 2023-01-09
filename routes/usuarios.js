@@ -53,7 +53,7 @@ router.post(
   ],
   usuariosPost
 );
-router.patch("/", usuariosPatch);
+// router.patch("/", usuariosPatch);
 router.delete(
   "/:id",
   [
