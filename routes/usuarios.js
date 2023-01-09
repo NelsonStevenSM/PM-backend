@@ -53,7 +53,6 @@ router.post(
   ],
   usuariosPost
 );
-// router.patch("/", usuariosPatch);
 router.delete(
   "/:id",
   [
@@ -66,5 +65,7 @@ router.delete(
   ],
   usuariosDelete
 );
+
+router.patch("/", usuariosPatch);
 
 module.exports = router;
